@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $text-primary;
+}
+
+h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
+h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
+
+p {
+  font-family: $font-primary;
+  line-height: 1.7;
+  color: $text-secondary;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+code, .mono {
+  font-family: $font-mono;
+}

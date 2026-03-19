@@ -1,0 +1,24 @@
+@use 'variables' as *;
+
+@mixin glass-card($border-color: $neon-cyan) {
+  background: $bg-card;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba($border-color, 0.2);
+  border-radius: 16px;
+  transition: $transition-base;
+
+  &:hover {
+    border-color: rgba($border-color, 0.6);
+    box-shadow: 0 0 30px rgba($border-color, 0.15), 0 8px 32px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
+  }
+}
+
+.glass-card {
+  @include glass-card();
+}
+
+.glass-card-purple {
+  @include glass-card($neon-purple);
+}

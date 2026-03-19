@@ -1,0 +1,126 @@
+@use 'styles/variables' as *;
+@use 'styles/mixins' as *;
+@use 'styles/glassmorphism';
+@use 'styles/animations';
+@use 'styles/typography';
+
+// Import AOS
+@import 'aos/dist/aos.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  background-color: $bg-primary;
+  color: $text-primary;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: $bg-primary;
+}
+::-webkit-scrollbar-thumb {
+  background: $neon-cyan;
+  border-radius: 3px;
+}
+
+// Selection
+::selection {
+  background: rgba(0, 245, 255, 0.2);
+  color: $neon-cyan;
+}
+
+// Utility
+.neon-cyan { color: $neon-cyan; }
+.neon-purple { color: $neon-purple; }
+.text-muted { color: $text-muted; }
+
+// Section base
+section {
+  padding: $section-padding;
+}
+
+.container {
+  @include container;
+}
+
+// Buttons
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, $neon-cyan, $neon-purple);
+  color: $bg-primary;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: $transition-base;
+  font-family: $font-primary;
+  text-decoration: none;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $glow-cyan;
+  }
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 31px;
+  background: transparent;
+  color: $neon-cyan;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid $neon-cyan;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: $transition-base;
+  font-family: $font-primary;
+  text-decoration: none;
+
+  &:hover {
+    background: rgba(0, 245, 255, 0.1);
+    box-shadow: $glow-cyan;
+    transform: translateY(-2px);
+  }
+}
+
+// Tag/Pill
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(0, 245, 255, 0.1);
+  color: $neon-cyan;
+  border: 1px solid rgba(0, 245, 255, 0.3);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: $font-mono;
+  transition: $transition-base;
+}
+
+// Neon divider
+.neon-divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, $neon-cyan, $neon-purple);
+  border-radius: 2px;
+  margin: 16px 0 40px;
+}
