@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0f0f1e"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="100%" style="stop-color:#b44fff"/>
+    </linearGradient>
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="100%" style="stop-color:#b44fff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Border -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="none" stroke="url(#border-grad)" stroke-width="2"/>
+  <!-- AR letters -->
+  <text x="32" y="44" font-family="Georgia, serif" font-size="28" font-weight="700" text-anchor="middle" fill="url(#text-grad)">AR</text>
+  <!-- Bottom dot accent -->
+  <circle cx="32" cy="56" r="2" fill="#00f5ff" opacity="0.6"/>
+</svg>

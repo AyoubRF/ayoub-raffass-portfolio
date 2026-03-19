@@ -12,9 +12,8 @@ import { ScrollService } from '../../core/services/scroll.service';
     <nav class="navbar" [class.scrolled]="scrollService.isScrolled()">
       <div class="nav-container">
         <div class="nav-brand" (click)="scrollTo('hero')">
-          <span class="brand-bracket">&lt;</span>
-          <span class="brand-name">AR</span>
-          <span class="brand-bracket">/&gt;</span>
+          <img class="brand-avatar" src="assets/avatar.png" alt="Ayoub RAFFASS">
+          <span class="brand-name">Ayoub <span class="brand-lastname">RAFFASS</span></span>
         </div>
 
         <div class="nav-links" [class.open]="menuOpen">
@@ -65,20 +64,39 @@ import { ScrollService } from '../../core/services/scroll.service';
     }
 
     .nav-brand {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.1rem;
       font-weight: 700;
       cursor: pointer;
       user-select: none;
+      text-decoration: none;
     }
 
-    .brand-bracket {
-      color: #00f5ff;
+    .brand-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 2px solid #00f5ff;
+      box-shadow: 0 0 10px rgba(0, 245, 255, 0.4);
+      transition: box-shadow 0.3s;
+
+      &:hover {
+        box-shadow: 0 0 20px rgba(0, 245, 255, 0.7);
+      }
     }
 
     .brand-name {
       color: #e8eaf0;
-      margin: 0 2px;
+      letter-spacing: 0.3px;
+    }
+
+    .brand-lastname {
+      color: #00f5ff;
     }
 
     .nav-links {

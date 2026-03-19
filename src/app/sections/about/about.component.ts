@@ -17,7 +17,7 @@ import { SectionTitleComponent } from '../../shared/components/section-title/sec
           <div class="profile-card glass-card">
             <div class="avatar-wrapper">
               <div class="avatar">
-                <span class="avatar-initials">AR</span>
+                <img class="avatar-img" src="assets/avatar.png" alt="Ayoub RAFFASS">
                 <div class="avatar-ring"></div>
               </div>
             </div>
@@ -139,19 +139,15 @@ import { SectionTitleComponent } from '../../shared/components/section-title/sec
       height: 100px;
     }
 
-    .avatar-initials {
+    .avatar-img {
       position: absolute;
       inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, rgba(0, 245, 255, 0.2), rgba(180, 79, 255, 0.2));
-      border: 2px solid #00f5ff;
+      width: 100%;
+      height: 100%;
       border-radius: 50%;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 2rem;
-      font-weight: 700;
-      color: #00f5ff;
+      object-fit: cover;
+      object-position: top center;
+      border: 2px solid #00f5ff;
       z-index: 1;
     }
 
