@@ -1,0 +1,158 @@
+{
+  "NAV": {
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "SKILLS": "Skills",
+    "EDUCATION": "Education",
+    "CERTIFICATIONS": "Certifications",
+    "CONTACT": "Contact",
+    "DOWNLOAD_CV": "Download CV"
+  },
+  "HERO": {
+    "GREETING": "Hello, I'm",
+    "NAME": "Ayoub RAFFASS",
+    "TITLE": "Senior Software Engineer",
+    "SUBTITLE": "Building scalable microservices, AI-powered platforms, and elegant frontends. Currently working on LLMs & API Management at Gravitee.",
+    "CTA_CONTACT": "Get in Touch",
+    "CTA_WORK": "View My Work",
+    "SCROLL": "Scroll Down"
+  },
+  "ABOUT": {
+    "TITLE": "About Me",
+    "BIO_1": "I'm a passionate Senior Software Engineer with 6+ years of experience building robust backend systems and modern frontends. I specialize in Java/Spring Boot microservices, Angular applications, and cloud-native architectures.",
+    "BIO_2": "Currently at Gravitee, I work on cutting-edge AI integration — building LLM proxies, MCP servers, and API management solutions that help teams govern and scale their AI usage.",
+    "LOCATION": "Location",
+    "COMPANY": "Current Company",
+    "EMAIL": "Email",
+    "LOCATION_VALUE": "Roissy-en-France, Île-de-France",
+    "COMPANY_VALUE": "Gravitee — Senior Software Engineer",
+    "EMAIL_VALUE": "ayoubraffass@gmail.com",
+    "DOWNLOAD_CV": "Download CV",
+    "LINKEDIN": "LinkedIn Profile"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experience",
+    "CURRENT": "Current",
+    "ROLES": [
+      {
+        "TITLE": "Senior Software Engineer",
+        "COMPANY": "Gravitee",
+        "PERIOD": "2025 — Present",
+        "DESCRIPTION": "Working on the AI/Federation team building LLM proxies, MCP (Model Context Protocol) servers, and API Management (APIM) solutions. Designing scalable architectures for AI governance and API federation.",
+        "TAGS": ["Java", "Spring Boot", "LLMs", "MCP", "API Management", "Microservices"]
+      },
+      {
+        "TITLE": "Senior FullStack Engineer",
+        "COMPANY": "Hub One",
+        "PERIOD": "Jun 2024 — 2025",
+        "DESCRIPTION": "Led the refactor of a B2B platform across the full order lifecycle (Catalogue → Devis → Commandes). Worked in Agile/SAFe teams, implemented Jenkins CI/CD pipelines, and improved platform performance and maintainability.",
+        "TAGS": ["Angular", "Java", "Spring Boot", "Jenkins", "CI/CD", "SAFe"]
+      },
+      {
+        "TITLE": "Software Engineer",
+        "COMPANY": "SIB",
+        "PERIOD": "Jul 2023 — Jun 2024",
+        "DESCRIPTION": "Developed and maintained enterprise software solutions, contributing to backend services and API development.",
+        "TAGS": ["Java", "Spring Boot", "REST API", "PostgreSQL"]
+      },
+      {
+        "TITLE": "Full Stack Java EE / Angular Engineer",
+        "COMPANY": "EURAFRIC INFORMATION",
+        "PERIOD": "Apr 2022 — Jul 2023",
+        "DESCRIPTION": "Built and maintained banking applications for Bank Of Africa. Developed full-stack features using Java EE and Angular, ensuring high reliability and security for financial transactions.",
+        "TAGS": ["Java EE", "Angular", "Banking", "REST", "Oracle"]
+      },
+      {
+        "TITLE": "Full Stack Java EE / Angular Engineer",
+        "COMPANY": "Orange Business Services",
+        "PERIOD": "Dec 2020 — Apr 2022",
+        "DESCRIPTION": "Developed enterprise-grade full-stack applications for Orange Business Services, working on large-scale infrastructure and B2B service platforms.",
+        "TAGS": ["Java EE", "Angular", "TypeScript", "Spring", "Agile"]
+      },
+      {
+        "TITLE": "Java Engineer",
+        "COMPANY": "Berexia",
+        "PERIOD": "Feb 2019 — Nov 2020",
+        "DESCRIPTION": "Worked as a Java engineer at Scor (external mission), building the ForeWriter platform — a document generation and workflow automation tool for the insurance industry.",
+        "TAGS": ["Java", "Spring", "ForeWriter", "Insurance Tech", "Scor"]
+      }
+    ]
+  },
+  "SKILLS": {
+    "TITLE": "Skills",
+    "FILTER_ALL": "All",
+    "FILTER_BACKEND": "Backend",
+    "FILTER_FRONTEND": "Frontend",
+    "FILTER_DEVOPS": "DevOps",
+    "FILTER_ARCHITECTURE": "Architecture"
+  },
+  "EDUCATION": {
+    "TITLE": "Education",
+    "ITEMS": [
+      {
+        "DEGREE": "Engineer's Degree in Computer Science",
+        "SCHOOL": "ENSA Al Hoceima",
+        "PERIOD": "2016 — 2019",
+        "DESCRIPTION": "Ingénieur d'état in Computer Science and Information Systems."
+      },
+      {
+        "DEGREE": "DUT in Computer Science",
+        "SCHOOL": "EST",
+        "PERIOD": "2014 — 2016",
+        "DESCRIPTION": "University Diploma of Technology in Computer Science."
+      },
+      {
+        "DEGREE": "Baccalaureate in Mathematics",
+        "SCHOOL": "Elkindi",
+        "PERIOD": "2014",
+        "DESCRIPTION": "Scientific Baccalaureate specializing in Mathematics."
+      }
+    ]
+  },
+  "CERTIFICATIONS": {
+    "TITLE": "Certifications",
+    "ITEMS": [
+      {
+        "NAME": "Java and SQL",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "Java SE 11: Expressions, Arrays & Loops",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "Java SE 11: Variables & Operators",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "DELF B2",
+        "ISSUER": "Alliance Française",
+        "YEAR": "2022"
+      },
+      {
+        "NAME": "Lifelong Learning",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2022"
+      }
+    ]
+  },
+  "CONTACT": {
+    "TITLE": "Get In Touch",
+    "SUBTITLE": "I'm currently open to new opportunities. Whether you have a project in mind or just want to say hello, my inbox is always open.",
+    "NAME_LABEL": "Your Name",
+    "NAME_PLACEHOLDER": "John Doe",
+    "EMAIL_LABEL": "Your Email",
+    "EMAIL_PLACEHOLDER": "john@example.com",
+    "SUBJECT_LABEL": "Subject",
+    "SUBJECT_PLACEHOLDER": "Project Inquiry",
+    "MESSAGE_LABEL": "Message",
+    "MESSAGE_PLACEHOLDER": "Tell me about your project...",
+    "SEND_BTN": "Send Message",
+    "SUCCESS": "Message sent successfully!",
+    "ERROR": "Something went wrong. Please try again.",
+    "OR": "Or reach me directly"
+  }
+}

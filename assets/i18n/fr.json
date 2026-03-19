@@ -1,0 +1,158 @@
+{
+  "NAV": {
+    "ABOUT": "À Propos",
+    "EXPERIENCE": "Expérience",
+    "SKILLS": "Compétences",
+    "EDUCATION": "Formation",
+    "CERTIFICATIONS": "Certifications",
+    "CONTACT": "Contact",
+    "DOWNLOAD_CV": "Télécharger CV"
+  },
+  "HERO": {
+    "GREETING": "Bonjour, je suis",
+    "NAME": "Ayoub RAFFASS",
+    "TITLE": "Ingénieur Logiciel Senior",
+    "SUBTITLE": "Construction de microservices scalables, plateformes propulsées par l'IA et frontends élégants. Actuellement sur les LLMs & API Management chez Gravitee.",
+    "CTA_CONTACT": "Me Contacter",
+    "CTA_WORK": "Voir Mon Travail",
+    "SCROLL": "Défiler"
+  },
+  "ABOUT": {
+    "TITLE": "À Propos de Moi",
+    "BIO_1": "Ingénieur logiciel senior passionné avec plus de 6 ans d'expérience dans la construction de systèmes backend robustes et de frontends modernes. Je me spécialise dans les microservices Java/Spring Boot, les applications Angular et les architectures cloud-native.",
+    "BIO_2": "Actuellement chez Gravitee, je travaille sur l'intégration de l'IA de pointe — construction de proxies LLM, serveurs MCP et solutions de gestion d'API qui aident les équipes à gouverner et à faire évoluer leur usage de l'IA.",
+    "LOCATION": "Localisation",
+    "COMPANY": "Entreprise Actuelle",
+    "EMAIL": "Email",
+    "LOCATION_VALUE": "Roissy-en-France, Île-de-France",
+    "COMPANY_VALUE": "Gravitee — Ingénieur Logiciel Senior",
+    "EMAIL_VALUE": "ayoubraffass@gmail.com",
+    "DOWNLOAD_CV": "Télécharger CV",
+    "LINKEDIN": "Profil LinkedIn"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Expérience",
+    "CURRENT": "Actuel",
+    "ROLES": [
+      {
+        "TITLE": "Ingénieur Logiciel Senior",
+        "COMPANY": "Gravitee",
+        "PERIOD": "2025 — Présent",
+        "DESCRIPTION": "Travail au sein de l'équipe AI/Federation sur la construction de proxies LLM, serveurs MCP (Model Context Protocol) et solutions APIM. Conception d'architectures scalables pour la gouvernance IA et la fédération API.",
+        "TAGS": ["Java", "Spring Boot", "LLMs", "MCP", "API Management", "Microservices"]
+      },
+      {
+        "TITLE": "Ingénieur FullStack Senior",
+        "COMPANY": "Hub One",
+        "PERIOD": "Juin 2024 — 2025",
+        "DESCRIPTION": "Direction du refactor d'une plateforme B2B couvrant le cycle de vie complet des commandes (Catalogue → Devis → Commandes). Travail en équipes Agile/SAFe, mise en place de pipelines CI/CD Jenkins.",
+        "TAGS": ["Angular", "Java", "Spring Boot", "Jenkins", "CI/CD", "SAFe"]
+      },
+      {
+        "TITLE": "Ingénieur Logiciel",
+        "COMPANY": "SIB",
+        "PERIOD": "Juil 2023 — Juin 2024",
+        "DESCRIPTION": "Développement et maintenance de solutions logicielles d'entreprise, contribution aux services backend et au développement d'API.",
+        "TAGS": ["Java", "Spring Boot", "REST API", "PostgreSQL"]
+      },
+      {
+        "TITLE": "Ingénieur Full Stack Java EE / Angular",
+        "COMPANY": "EURAFRIC INFORMATION",
+        "PERIOD": "Avr 2022 — Juil 2023",
+        "DESCRIPTION": "Construction et maintenance d'applications bancaires pour Bank Of Africa. Développement de fonctionnalités full-stack en Java EE et Angular, assurant haute fiabilité et sécurité pour les transactions financières.",
+        "TAGS": ["Java EE", "Angular", "Bancaire", "REST", "Oracle"]
+      },
+      {
+        "TITLE": "Ingénieur Full Stack Java EE / Angular",
+        "COMPANY": "Orange Business Services",
+        "PERIOD": "Déc 2020 — Avr 2022",
+        "DESCRIPTION": "Développement d'applications full-stack d'entreprise pour Orange Business Services, travail sur des infrastructures à grande échelle et des plateformes de services B2B.",
+        "TAGS": ["Java EE", "Angular", "TypeScript", "Spring", "Agile"]
+      },
+      {
+        "TITLE": "Ingénieur Java",
+        "COMPANY": "Berexia",
+        "PERIOD": "Fév 2019 — Nov 2020",
+        "DESCRIPTION": "Travail en tant qu'ingénieur Java chez Scor (mission externe), construction de la plateforme ForeWriter — un outil de génération de documents et d'automatisation des workflows pour le secteur de l'assurance.",
+        "TAGS": ["Java", "Spring", "ForeWriter", "InsurTech", "Scor"]
+      }
+    ]
+  },
+  "SKILLS": {
+    "TITLE": "Compétences",
+    "FILTER_ALL": "Tout",
+    "FILTER_BACKEND": "Backend",
+    "FILTER_FRONTEND": "Frontend",
+    "FILTER_DEVOPS": "DevOps",
+    "FILTER_ARCHITECTURE": "Architecture"
+  },
+  "EDUCATION": {
+    "TITLE": "Formation",
+    "ITEMS": [
+      {
+        "DEGREE": "Ingénieur d'État en Informatique",
+        "SCHOOL": "ENSA Al Hoceima",
+        "PERIOD": "2016 — 2019",
+        "DESCRIPTION": "Diplôme d'ingénieur d'état en informatique et systèmes d'information."
+      },
+      {
+        "DEGREE": "DUT en Informatique",
+        "SCHOOL": "EST",
+        "PERIOD": "2014 — 2016",
+        "DESCRIPTION": "Diplôme Universitaire de Technologie en Informatique."
+      },
+      {
+        "DEGREE": "Baccalauréat en Mathématiques",
+        "SCHOOL": "Elkindi",
+        "PERIOD": "2014",
+        "DESCRIPTION": "Baccalauréat scientifique spécialité Mathématiques."
+      }
+    ]
+  },
+  "CERTIFICATIONS": {
+    "TITLE": "Certifications",
+    "ITEMS": [
+      {
+        "NAME": "Java et SQL",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "Java SE 11 : Expressions, Tableaux et Boucles",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "Java SE 11 : Variables et Opérateurs",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2023"
+      },
+      {
+        "NAME": "DELF B2",
+        "ISSUER": "Alliance Française",
+        "YEAR": "2022"
+      },
+      {
+        "NAME": "Apprentissage Tout au Long de la Vie",
+        "ISSUER": "LinkedIn Learning",
+        "YEAR": "2022"
+      }
+    ]
+  },
+  "CONTACT": {
+    "TITLE": "Me Contacter",
+    "SUBTITLE": "Je suis actuellement ouvert à de nouvelles opportunités. Que vous ayez un projet en tête ou que vous vouliez simplement dire bonjour, ma boîte mail est toujours ouverte.",
+    "NAME_LABEL": "Votre Nom",
+    "NAME_PLACEHOLDER": "Jean Dupont",
+    "EMAIL_LABEL": "Votre Email",
+    "EMAIL_PLACEHOLDER": "jean@exemple.com",
+    "SUBJECT_LABEL": "Sujet",
+    "SUBJECT_PLACEHOLDER": "Demande de Projet",
+    "MESSAGE_LABEL": "Message",
+    "MESSAGE_PLACEHOLDER": "Parlez-moi de votre projet...",
+    "SEND_BTN": "Envoyer le Message",
+    "SUCCESS": "Message envoyé avec succès !",
+    "ERROR": "Une erreur s'est produite. Veuillez réessayer.",
+    "OR": "Ou contactez-moi directement"
+  }
+}
