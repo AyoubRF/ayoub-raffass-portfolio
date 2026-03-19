@@ -41,7 +41,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/ar-portfolio/",
+              "baseHref": "/ayoub-raffass-portfolio/",
               "budgets": [
                 {
                   "type": "initial",
