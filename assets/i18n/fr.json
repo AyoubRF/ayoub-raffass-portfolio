@@ -45,8 +45,8 @@
         "TITLE": "Ingénieur FullStack Senior",
         "COMPANY": "Hub One",
         "PERIOD": "Juin 2024 — 2025",
-        "DESCRIPTION": "Direction du refactor d'une plateforme B2B couvrant le cycle de vie complet des commandes (Catalogue → Devis → Commandes). Travail en équipes Agile/SAFe, mise en place de pipelines CI/CD Jenkins.",
-        "TAGS": ["Angular", "Java", "Spring Boot", "Jenkins", "CI/CD", "SAFe"]
+        "DESCRIPTION": "Participation à la refonte complète du cycle Catalogue → Devis → Commandes pour une plateforme B2B. Mise en œuvre de fonctionnalités clés : gestion des offres, génération de devis PDF, transformation en commandes techniques avec orchestration d'actions (approvisionnement, logistique, installation). Travail en Agile Scrum au sein de l'équipe, coordination SAFe, livraisons CI/CD via Jenkins.",
+        "TAGS": ["Java EE", "Java 20+", "Angular", "Spring Boot", "Jenkins", "CI/CD", "SAFe", "Agile Scrum"]
       },
       {
         "TITLE": "Ingénieur Logiciel",
