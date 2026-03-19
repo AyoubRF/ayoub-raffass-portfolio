@@ -106,7 +106,7 @@ import { SectionTitleComponent } from '../../shared/components/section-title/sec
                 </div>
                 <div>
                   <span class="social-label">Location</span>
-                  <span class="social-value">Roissy-en-France, Île-de-France, France</span>
+                  <span class="social-value">Paris, Île-de-France, France</span>
                 </div>
               </div>
             </div>

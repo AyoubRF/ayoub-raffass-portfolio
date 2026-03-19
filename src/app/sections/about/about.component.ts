@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { SectionTitleComponent } from '../../shared/components/section-title/section-title.component';
+import { TranslateConfigService } from '../../core/services/translate-config.service';
 
 @Component({
   selector: 'app-about',
@@ -49,7 +50,7 @@ import { SectionTitleComponent } from '../../shared/components/section-title/sec
             </div>
 
             <div class="profile-actions">
-              <a href="mailto:ayoubraffass@gmail.com" class="btn-primary">
+              <a [href]="cvUrl()" download class="btn-primary">
                 <i class="fas fa-download"></i>
                 {{ 'ABOUT.DOWNLOAD_CV' | translate }}
               </a>
@@ -296,4 +297,13 @@ import { SectionTitleComponent } from '../../shared/components/section-title/sec
     }
   `]
 })
-export class AboutComponent {}
+export class AboutComponent {
+  private translateConfig = inject(TranslateConfigService);
+
+  cvUrl() {
+    const lang = this.translateConfig.currentLang();
+    return lang === 'fr'
+      ? 'assets/CV_AYOUB_RAFFASS_FR.pdf'
+      : 'assets/CV_AYOUB_RAFFASS_EN.pdf';
+  }
+}
